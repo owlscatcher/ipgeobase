@@ -15,7 +15,7 @@ gem "addressable"
 gem "net"
 gem "nokogiri-happymapper", require: "happymapper"
 
-scope :test do
+group :test do
   gem "simplecov"
   gem "webmock"
 end

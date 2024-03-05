@@ -9,14 +9,13 @@ Gem::Specification.new do |spec|
   spec.email = ["collabsis.g@gmail.com"]
 
   spec.summary = "Gem for ip-api.com service"
-  spec.description = "Gem for ip-api.com service. Returns data about IP-address as object."
+  spec.description = "Gem for ip-api.com service"
   spec.homepage = "https://github.com/owlscatcher/ipgeobase"
   spec.required_ruby_version = ">= 2.6.0"
 
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = "https://github.com/owlscatcher/ipgeobase"
   spec.metadata["changelog_uri"] = "https://github.com/owlscatcher/ipgeobase/CHANGELOG.md"
-  spec.metadata["license"] = "MIT"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
